@@ -27,7 +27,13 @@ fs.writeFile("readMe.md", `
 ## **${data.project_name}**
 
 ## Table of Contents
-1. [Description](#desc)
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage] (#usage)
+4. [Contributing] (#contributing)
+5. [License] (#license)
+6. [Tests] (#tests)
+7. [Questions] (#questions)
 
 <a name="description"></a>
 ## Description
@@ -49,6 +55,10 @@ ${data.contributing}
 ## License
 ${data.license}
 
+<a name="test"></a>
+## Tests
+${data.tests}
+
 <a name="email"></a>
 ## Email
 ${data.email}
@@ -56,8 +66,6 @@ ${data.email}
 <a name="gitHub"></a>
 ## GitHub
 ${data.gitHub}
-
-${data.tests}
 
 `, err => console.log(err));
 }
