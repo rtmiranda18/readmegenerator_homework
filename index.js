@@ -26,6 +26,8 @@ fs.writeFile("readMe.md", `
 <a name="project_name"></a>
 ## **${data.project_name}**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)

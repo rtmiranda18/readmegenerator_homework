@@ -18,7 +18,7 @@ Creates a professional README for a new project
 
 <a name="installation"></a>
 ## Installation
-npm installer
+npm install
   
 <a name="usage"></a>
 ## Usage
@@ -26,7 +26,7 @@ storing source code
 
 <a name="contributing"></a>
 ## Contributing
-do git commits
+make git commits
 
 <a name="license"></a>
 ## License
@@ -36,11 +36,8 @@ MIT
 ## Tests
 node index.js
 
-<a name="email"></a>
-## Email
+<a name="questions"></a>
+## Questions
 rtmiranda18@gmail.com
-
-<a name="gitHub"></a>
-## GitHub
-rtmiranda18
+https://github.com/rtmiranda18
 
