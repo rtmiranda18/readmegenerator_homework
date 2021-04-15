@@ -21,24 +21,23 @@ inquirer
 
 const writeUp = (data) => {
 
-  fs.writeFile("readMe.md", `
+fs.writeFile("readMe.md", `
+## Table of Contents
+1. [Description] (#desc)
 
-    ## Table of Contents
-    1. [Description] (#desc)
-    
-    <a name="description"></a>
-    ## Description
-    ${data.description}
+<a name="description"></a>
+## Description
+${data.description}
 
   
-    ${data.gitHub}
-    ${data.email}
-    ${data.project_name}
-    ${data.license}
-    ${data.dependencies}
-    ${data.tests}
-    ${data.repo_use}
-    ${data.repo_contribution}
+${data.gitHub}
+${data.email}
+${data.project_name}
+${data.license}
+${data.dependencies}
+${data.tests}
+${data.repo_use}
+${data.repo_contribution}
 
-  `, err => console.log(err));
+`, err => console.log(err));
 }
