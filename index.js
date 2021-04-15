@@ -22,11 +22,18 @@ inquirer
 const writeUp = (data) => {
 
   fs.writeFile("readMe.md", `
+
+    ## Table of Contents
+    1. [Description] (#desc)
+    
+    <a name="description"></a>
+    ## Description
+    ${data.description}
+
   
     ${data.gitHub}
     ${data.email}
     ${data.project_name}
-    ${data.description}
     ${data.license}
     ${data.dependencies}
     ${data.tests}

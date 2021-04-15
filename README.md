@@ -1,13 +1,20 @@
 
+
+    ## Table of Contents
+    1. [Description] (#desc)
+    
+    <a name="description"></a>
+    ## Description
+    This project will generate a ReadMe
+
   
     rtmiranda18
     rtmiranda18@gmail.com
     ReadMe Generator
-    generates shortcut for ReadMes
     MIT
-    npm install
+    npm insall
     node index.js
     storing source code
-    undefined
+    do git commits
 
   
