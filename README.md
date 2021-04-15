@@ -1,20 +1,38 @@
 
 
+<a name="project_name"></a>
+## **ReadMe Generator**
+
 ## Table of Contents
-1. [Description] (#desc)
-    
+1. [Description](#desc)
+
 <a name="description"></a>
 ## Description
-This project will generate a ReadMe
+Creates a professional README for a new project
 
+<a name="installation"></a>
+## Installation
+npm install
   
-rtmiranda18
-rtmiranda18@gmail.com
-ReadMe Generator
-MIT
-npm insall
-node index.js
+<a name="usage"></a>
+## Usage
 storing source code
+
+<a name="contributing"></a>
+## Contributing
 do git commits
 
-  
+<a name="license"></a>
+## License
+MIT
+
+<a name="email"></a>
+## Email
+rtmiranda18@gmail.com
+
+<a name="gitHub"></a>
+## GitHub
+rtmiranda18
+
+node index.js
+
