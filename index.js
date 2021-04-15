@@ -21,12 +21,10 @@ inquirer
 
 const writeUp = (data) => {
 
-fs.writeFile("readMe.md", `
+fs.writeFile("results.md", `
 
 <a name="project_name"></a>
 ## **${data.project_name}**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 1. [Description](#description)
@@ -66,5 +64,11 @@ ${data.tests}
 ${data.email}
 ${data.gitHub}
 
-`, err => console.log(err));
+
+`, err => {if (err) {
+    console.log(err);
+} else {
+    console.log("Generating ReadMe...");
+}
+});
 }

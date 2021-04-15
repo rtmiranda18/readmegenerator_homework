@@ -1,9 +1,7 @@
 
 
 <a name="project_name"></a>
-## **ReadMe Generator**
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## **t**
 
 ## Table of Contents
 1. [Description](#description)
@@ -16,30 +14,31 @@
 
 <a name="description"></a>
 ## Description
-Creates a professional README for a new project
+t
 
 <a name="installation"></a>
 ## Installation
-npm install
+t
   
 <a name="usage"></a>
 ## Usage
-stores source code
+t
 
 <a name="contributing"></a>
 ## Contributing
-make git commits
+t
 
 <a name="license"></a>
 ## License
-MIT
+t
 
 <a name="test"></a>
 ## Tests
-node index.js
+t
 
 <a name="questions"></a>
 ## Questions
-rtmiranda18@gmail.com
-https://github.com/rtmiranda18
+t
+t
+
 
