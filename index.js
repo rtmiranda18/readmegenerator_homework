@@ -2,15 +2,15 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 const questions = [
-  { type: 'input', message: 'what is your GitHub username?', name: 'gitHub' },
-  { type: 'input', message: 'what is your email address?', name: 'email' },
-  { type: 'input', message: 'what is your project\'s name?', name: 'project_name' },
+  { type: 'input', message: 'What is your GitHub username?', name: 'gitHub' },
+  { type: 'input', message: 'What is your email address?', name: 'email' },
+  { type: 'input', message: 'What is your project\'s name?', name: 'project_name' },
   { type: 'input', message: 'Please write a short description of project:', name: 'description' },
-  { type: 'input', message: 'what kind of license should your project have?', name: 'license' },
-  { type: 'input', message: 'what command should be run to install dependencies', name: 'dependencies' },
-  { type: 'input', message: 'what command should be run to run tests', name: 'tests' },
-  { type: 'input', message: 'what does the user need to know about using the repo', name: 'repo_use' },
-  { type: 'input', message: 'what does the user need to know about contributing to the repo', name: 'repo_contribution' },
+  { type: 'input', message: 'What kind of license should your project have?', name: 'license' },
+  { type: 'input', message: 'What command should be run to install dependencies?', name: 'dependencies' },
+  { type: 'input', message: 'What command should be run to run tests?', name: 'tests' },
+  { type: 'input', message: 'What does the user need to know about using the repo?', name: 'repo_use' },
+  { type: 'input', message: 'What does the user need to know about contributing to the repo?', name: 'repo_contribution' },
 ];
 
 inquirer
@@ -31,7 +31,7 @@ const writeUp = (data) => {
     ${data.dependencies}
     ${data.tests}
     ${data.repo_use}
-    ${data.repo_contributions}
+    ${data.repo_contribution}
 
   `, err => console.log(err));
 }

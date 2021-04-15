@@ -2,12 +2,12 @@
   
     rtmiranda18
     rtmiranda18@gmail.com
-    undefined
-    short but sweet
+    ReadMe Generator
+    generates shortcut for ReadMes
     MIT
-    npm installl
+    npm install
     node index.js
-    undefined
+    storing source code
     undefined
 
   
