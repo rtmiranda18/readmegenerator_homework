@@ -1,0 +1,22 @@
+{
+  "name": "readmegenerator_homework",
+  "version": "1.0.0",
+  "description": "A ReadME generator that create a professional README for a new project\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[B\u001b[B\u001b[t\u001b[D\u001b[D\u001b[t",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtmiranda18/readmegenerator_homework.git"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Rosario Terese Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtmiranda18/readmegenerator_homework/issues"
+  },
+  "homepage": "https://github.com/rtmiranda18/readmegenerator_homework#readme"
+}
