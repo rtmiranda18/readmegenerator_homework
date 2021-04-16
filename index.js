@@ -56,19 +56,19 @@ ${data.badge}
 
 <a name="description"></a>
 ## Description
-${data.description}
+* ${data.description}
 
 <a name="installation"></a>
 ## Installation
-${data.installation}
+* ${data.installation}
   
 <a name="usage"></a>
 ## Usage
-${data.usage}
+* ${data.usage}
 
 <a name="contributing"></a>
 ## Contributing
-${data.contributing}
+* ${data.contributing}
 
 <a name="license"></a>
 ## License
@@ -78,12 +78,12 @@ ${data.license}<br />
 
 <a name="test"></a>
 ## Tests
-${data.tests}
+* ${data.tests}
 
 <a name="questions"></a>
 ## Questions
-If you have any additional questions, please email me at ${data.email}.<br />
-GitHub: [${data.gitHub}](https://github.com/${data.gitHub})
+* If you have any additional questions, please email me at ${data.email}.<br />
+* GitHub: [${data.gitHub}](https://github.com/${data.gitHub})
 
 
 `, err => {if (err) {
