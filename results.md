@@ -1,7 +1,9 @@
 
 
 <a name="project_name"></a>
-## **test**
+## **t**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 1. [Description](#description)
@@ -14,19 +16,19 @@
 
 <a name="description"></a>
 ## Description
-test
+t
 
 <a name="installation"></a>
 ## Installation
-test
+t
   
 <a name="usage"></a>
 ## Usage
-test
+t
 
 <a name="contributing"></a>
 ## Contributing
-test
+t
 
 <a name="license"></a>
 ## License
@@ -34,11 +36,11 @@ MIT
 
 <a name="test"></a>
 ## Tests
-test
+t
 
 <a name="questions"></a>
 ## Questions
-Email: rtmiranda18@gmail.com<br />
+If you have any additional questions, please email me at rtmiranda18@gmail.com.<br />
 GitHub: [rtmiranda18](https://github.com/rtmiranda18)
 
 

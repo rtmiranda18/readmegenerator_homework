@@ -26,6 +26,8 @@ fs.writeFile("results.md", `
 <a name="project_name"></a>
 ## **${data.project_name}**
 
+[![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)](https://opensource.org/licenses/${data.license})
+
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
@@ -61,7 +63,7 @@ ${data.tests}
 
 <a name="questions"></a>
 ## Questions
-Email: ${data.email}<br />
+If you have any additional questions, please email me at ${data.email}.<br />
 GitHub: [${data.gitHub}](https://github.com/${data.gitHub})
 
 
