@@ -24,7 +24,7 @@
   
 <a name="usage"></a>
 ## Usage
-* storing souce code
+* storing source code
 
 <a name="contributing"></a>
 ## Contributing
