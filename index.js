@@ -61,8 +61,8 @@ ${data.tests}
 
 <a name="questions"></a>
 ## Questions
-${data.email}
-${data.gitHub}
+Email: ${data.email}<br />
+GitHub: [${data.gitHub}](https://github.com/${data.gitHub})
 
 
 `, err => {if (err) {
