@@ -3,7 +3,7 @@
 <a name="project_name"></a>
 ## **t**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Table of Contents
 1. [Description](#description)
@@ -32,7 +32,7 @@ t
 
 <a name="license"></a>
 ## License
-MIT
+BSD 3
 
 <a name="test"></a>
 ## Tests
@@ -40,7 +40,7 @@ t
 
 <a name="questions"></a>
 ## Questions
-If you have any additional questions, please email me at rtmiranda18@gmail.com.<br />
-GitHub: [rtmiranda18](https://github.com/rtmiranda18)
+If you have any additional questions, please email me at t.<br />
+GitHub: [t](https://github.com/t)
 
 

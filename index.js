@@ -16,6 +16,15 @@ const questions = [
 inquirer
   .prompt(questions)
   .then(response => {
+    if(response.license == 'MIT'){
+        response.badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    }else if(response.license == 'APACHE 2.0'){
+        response.badge = '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    }else if(response.license == 'GPL 3.0'){
+        response.badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+    }else if(response.license == 'BSD 3'){
+        response.badge = '[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+    }
     writeUp(response);
   });
 
@@ -26,7 +35,7 @@ fs.writeFile("results.md", `
 <a name="project_name"></a>
 ## **${data.project_name}**
 
-[![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-yellow.svg)](https://opensource.org/licenses/${data.license})
+${data.badge}
 
 ## Table of Contents
 1. [Description](#description)
