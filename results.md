@@ -1,9 +1,9 @@
 
 
 <a name="project_name"></a>
-## **t**
+## **ReadMe Generator**
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Contents
 1. [Description](#description)
@@ -16,33 +16,33 @@
 
 <a name="description"></a>
 ## Description
-t
+Creates a professional ReadMe for a new project
 
 <a name="installation"></a>
 ## Installation
-t
+npm install
   
 <a name="usage"></a>
 ## Usage
-t
+storing source code
 
 <a name="contributing"></a>
 ## Contributing
-t
+make git commits 
 
 <a name="license"></a>
 ## License
-GPL 3.0<br />
-* Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
-* Source: https://choosealicense.com/licenses/gpl-3.0/
+APACHE 2.0<br />
+* A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+* Source: https://choosealicense.com/licenses/apache-2.0/
 
 <a name="test"></a>
 ## Tests
-t
+node index.js
 
 <a name="questions"></a>
 ## Questions
-If you have any additional questions, please email me at t.<br />
-GitHub: [t](https://github.com/t)
+If you have any additional questions, please email me at rtmiranda18@gmail.com.<br />
+GitHub: [rtmiranda18](https://github.com/rtmiranda18)
 
 

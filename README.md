@@ -1,45 +1,40 @@
+# ReadMe Generator
 
+## Site Picture
+![Site](ReadMeGenerator.png)
 
-<a name="project_name"></a>
-## **ReadMe Generator**
+## Technologies Used
+- Javascript - adds special effects on pages
+- Node.js - an open source server environment that uses JavaScript on the server
+- GitBash - for cloning repository and pushing code to GitHub
+- GitHub - holds repository that deploys to GitHub Pages
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+## Summary
+This file contains a generated ReadMe. It also contains code that was created using Javascript and Node.js. 
 
-## Table of Contents
-1. [Description](#description)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
-6. [Tests](#tests)
-7. [Questions](#questions)
+## Code Snippet
+```html
+const questions = [
+  { type: 'input', message: 'What is your GitHub username?', name: 'gitHub' },
+  { type: 'input', message: 'What is your email address?', name: 'email' },
+  { type: 'input', message: 'What is your project\'s name?', name: 'project_name' },
+  { type: 'input', message: 'Please write a short description of project:', name: 'description' },
+  { type: 'list', message: 'What kind of license should your project have?', name: 'license', choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'] },
+  { type: 'input', message: 'What command should be run to install dependencies?', name: 'installation' },
+  { type: 'input', message: 'What command should be run to run tests?', name: 'tests' },
+  { type: 'input', message: 'What does the user need to know about using the repo?', name: 'usage' },
+  { type: 'input', message: 'What does the user need to know about contributing to the repo?', name: 'contributing' },
+];
+    ```
 
-<a name="description"></a>
-## Description
-Creates a professional README for a new project
+```html
+<html>
 
-<a name="installation"></a>
-## Installation
-npm install
-  
-<a name="usage"></a>
-## Usage
-stores source code
+</html>
+```
+## Video Link
+https://drive.google.com/file/d/1AOnAlzFTj9AlyiZ7G_nrQ1pRyJAa7sVX/view
 
-<a name="contributing"></a>
-## Contributing
-make git commits
-
-<a name="license"></a>
-## License
-MIT
-
-<a name="test"></a>
-## Tests
-node index.js
-
-<a name="questions"></a>
-## Questions
-rtmiranda18@gmail.com
-https://github.com/rtmiranda18
-
+## Author Links 
+[LinkedIn](https://www.linkedin.com/in/rosario-miranda-b81170132/)<br />
+[GitHub](https://github.com/rtmiranda18)
